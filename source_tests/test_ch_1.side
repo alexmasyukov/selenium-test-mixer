@@ -1,0 +1,536 @@
+{
+  "id": "575c75fe-9ff5-4d0e-b85e-8b069c808d3e",
+  "version": "2.0",
+  "name": "test",
+  "url": "https://doska.plus/item/add",
+  "tests": [{
+    "id": "64c23a3f-65f9-4d32-baaf-f2660cc27400",
+    "name": "without_category",
+    "commands": [{
+      "id": "c923f011-7862-4d48-9110-737d9f5fbbae",
+      "comment": "",
+      "command": "open",
+      "target": "/item/add",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bda5bd25-9d4d-430d-b120-1f36f5c45ec9",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return \"Автоматический тест № \" + Math.floor(Math.random() * (1 + 2000))",
+      "targets": [],
+      "value": "testNumber"
+    }, {
+      "id": "9ea367bc-5933-422a-9604-47773a36303c",
+      "comment": "",
+      "command": "type",
+      "target": "id=j-i-title",
+      "targets": [
+        ["id=j-i-title", "id"],
+        ["name=title", "name"],
+        ["css=#j-i-title", "css:finder"],
+        ["xpath=//input[@id='j-i-title']", "xpath:attributes"],
+        ["xpath=//form[@id='j-i-form']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/form/div/div/input", "xpath:position"]
+      ],
+      "value": "${testNumber}"
+    }, {
+      "id": "9e2c871b-b296-4835-b9b8-f372abf92e92",
+      "comment": "",
+      "command": "type",
+      "target": "id=j-i-descr",
+      "targets": [
+        ["id=j-i-descr", "id"],
+        ["name=descr", "name"],
+        ["css=#j-i-descr", "css:finder"],
+        ["xpath=//textarea[@id='j-i-descr']", "xpath:attributes"],
+        ["xpath=//form[@id='j-i-form']/div[4]/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Далеко в космосе расположена уединенная галактика. Она очень слабо светится, однако мало изменилась на протяжении миллиардов лет – и астрономы точно не знают, как эта галактика оказалась на своем месте и как происходило ее формирование.\\n\\nГалактика DGSAT I, открытая в 2016 г., относится к классу сверхдиффузных галактик, то есть галактик имеющих относительно большие размеры при низкой светимости. Но эта необычная галактика нарушает многие правила, выведенные для сверхдиффузных галактик.\\n\\nБольшинство других сверхдиффузных галактик (концепция, относительно новая для астрономов) расположены внутри густонаселенных, бурлящих скоплений галактик. Астрономы считают, что в результате мощных столкновений, происходящих в этих скоплениях, в космос выбрасываются, словно конфетти из хлопушки, сверхдиффузные галактики."
+    }, {
+      "id": "a34f3680-ab93-401e-a03c-925031b67df6",
+      "comment": "",
+      "command": "type",
+      "target": "id=j-i-name",
+      "targets": [
+        ["id=j-i-name", "id"],
+        ["name=name", "name"],
+        ["css=#j-i-name", "css:finder"],
+        ["xpath=//input[@id='j-i-name']", "xpath:attributes"],
+        ["xpath=//div[@id='j-i-name-block']/div/input", "xpath:idRelative"],
+        ["xpath=//div[11]/div/input", "xpath:position"]
+      ],
+      "value": "Имя Фамилия"
+    }, {
+      "id": "34d5b5e5-5c01-4156-8647-b225cbd6092c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.j-geo-city-select-ac",
+      "targets": [
+        ["id=j-geo-city-select-ac36", "id"],
+        ["css=#j-geo-city-select-ac36", "css:finder"],
+        ["xpath=//input[@id='j-geo-city-select-ac36']", "xpath:attributes"],
+        ["xpath=//form[@id='j-i-form']/div[9]/div/div/div/input[3]", "xpath:idRelative"],
+        ["xpath=//div[9]/div/div/div/input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b8ccea3e-7eef-422e-8d60-ac226be1e593",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "css=.autocomplete > li:nth-child(1)",
+      "targets": [
+        ["css=.autocomplete > li:nth-child(1)", "css:finder"],
+        ["xpath=//form[@id='j-i-form']/div[9]/div/div/div/ul/li", "xpath:idRelative"],
+        ["xpath=//div[9]/div/div/div/ul/li", "xpath:position"],
+        ["xpath=//li[contains(.,'Чита')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "af12406a-a451-44d2-8afd-3406d688a491",
+      "comment": "",
+      "command": "type",
+      "target": "id=item-video",
+      "targets": [
+        ["id=item-video", "id"],
+        ["name=video", "name"],
+        ["css=#item-video", "css:finder"],
+        ["xpath=//input[@id='item-video']", "xpath:attributes"],
+        ["xpath=//form[@id='j-i-form']/div[6]/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div/input", "xpath:position"]
+      ],
+      "value": "https://www.youtube.com/watch?v=yaX4iGw-b_Y"
+    }, {
+      "id": "165c7d8b-743c-4224-9a33-d42a770c14cc",
+      "comment": "",
+      "command": "type",
+      "target": "name=contacts[skype]",
+      "targets": [
+        ["name=contacts[skype]", "name"],
+        ["css=.j-c-skype", "css:finder"],
+        ["xpath=//input[@name='contacts[skype]']", "xpath:attributes"],
+        ["xpath=//form[@id='j-i-form']/div[15]/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "Мой скайп"
+    }, {
+      "id": "6acd3436-58b8-4aad-874e-a9d3ce723f74",
+      "comment": "",
+      "command": "type",
+      "target": "name=contacts[whatsapp]",
+      "targets": [
+        ["name=contacts[whatsapp]", "name"],
+        ["css=.j-c-whatsapp", "css:finder"],
+        ["xpath=//input[@name='contacts[whatsapp]']", "xpath:attributes"],
+        ["xpath=//form[@id='j-i-form']/div[15]/div/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "Мой Вотсапп"
+    }, {
+      "id": "3ba942fa-eed7-4349-99f9-199534becc5f",
+      "comment": "",
+      "command": "type",
+      "target": "name=contacts[viber]",
+      "targets": [
+        ["name=contacts[viber]", "name"],
+        ["css=.j-c-viber", "css:finder"],
+        ["xpath=//input[@name='contacts[viber]']", "xpath:attributes"],
+        ["xpath=//form[@id='j-i-form']/div[15]/div/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": "Мой Вайбер"
+    }, {
+      "id": "0daba2fc-05a4-40b4-9501-9894600b2482",
+      "comment": "",
+      "command": "type",
+      "target": "name=contacts[telegram]",
+      "targets": [
+        ["name=contacts[telegram]", "name"],
+        ["css=.j-c-telegram", "css:finder"],
+        ["xpath=//input[@name='contacts[telegram]']", "xpath:attributes"],
+        ["xpath=//form[@id='j-i-form']/div[15]/div/div[5]/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/input", "xpath:position"]
+      ],
+      "value": "Телеграмм"
+    }]
+  }, {
+    "id": "47b08368-d656-4dd4-af97-e4133a7bb8d8",
+    "name": "kvartiry_posutochno",
+    "commands": [{
+      "id": "03f44343-a03a-4016-85c0-e0271cc3ce7f",
+      "comment": "",
+      "command": "open",
+      "target": "https://doska.plus/item/add",
+      "targets": [
+        ["linkText=Добавить объявление", "linkText"],
+        ["css=.btn-success", "css:finder"],
+        ["xpath=//a[contains(text(),'Добавить объявление')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://doska.plus/item/add')]", "xpath:href"],
+        ["xpath=//li[3]/div/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,' Добавить объявление')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "19d7e53a-714e-446d-a2c4-88f9ceab1328",
+      "comment": "",
+      "command": "click",
+      "target": "css=.j-cat-select-link > span",
+      "targets": [
+        ["css=.j-cat-select-link > span", "css:finder"],
+        ["xpath=//form[@id='j-i-form']/div[2]/div/div/div[2]/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Выберите категорию')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "80fadd64-8a6c-4738-9210-0ca6c415136f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dropdown-menu-in li:nth-child(1) .l-categories-items-i-name",
+      "targets": [
+        ["css=.dropdown-menu-in li:nth-child(1) .l-categories-items-i-name", "css:finder"],
+        ["xpath=//form[@id='j-i-form']/div[2]/div/div/div[3]/div/div/ul/li/a/span[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/ul/li/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9c4e403f-f46d-471d-bc08-fe47eff8ee90",
+      "comment": "",
+      "command": "pause",
+      "target": "700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "beb58291-176c-4213-beee-c16c5c3610ab",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(1) > .j-sub > span",
+      "targets": [
+        ["css=li:nth-child(1) > .j-sub > span", "css:finder"],
+        ["xpath=//form[@id='j-i-form']/div[2]/div/div/div[3]/div[2]/div/div[2]/div/ul/li/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/ul/li/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Аренда недвижимости')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1e513548-2e1b-4c66-8f29-4d9b0df2acbf",
+      "comment": "",
+      "command": "pause",
+      "target": "700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5fc3adfe-f0a5-4e3f-9b1b-075844d95030",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(1) > .j-sub > span",
+      "targets": [
+        ["css=li:nth-child(1) > .j-sub > span", "css:finder"],
+        ["xpath=//form[@id='j-i-form']/div[2]/div/div/div[3]/div[2]/div/div[2]/div/ul/li/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/ul/li/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Аренда квартир')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e2fb11b3-b073-45f5-b1ed-2bf2b86078c3",
+      "comment": "",
+      "command": "pause",
+      "target": "700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0c261455-e9d7-46d3-ae62-6c1599079db8",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(1) > .j-sub > span",
+      "targets": [
+        ["css=li:nth-child(1) > .j-sub > span", "css:finder"],
+        ["xpath=//form[@id='j-i-form']/div[2]/div/div/div[3]/div[2]/div/div[2]/div/ul/li/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/ul/li/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Квартиры посуточно')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f584841f-39a2-44da-a86f-489e7ef04358",
+      "comment": "",
+      "command": "pause",
+      "target": "700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "23296fad-aef9-4220-b7dd-e80656a61204",
+      "comment": "",
+      "command": "type",
+      "target": "name=price",
+      "targets": [
+        ["name=price", "name"],
+        ["css=.j-only-numbers", "css:finder"],
+        ["xpath=//input[@name='price']", "xpath:attributes"],
+        ["xpath=//form[@id='j-i-form']/div[3]/div[2]/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "5000"
+    }, {
+      "id": "960a5100-81ae-40dc-a53e-f4ab6b7f30ce",
+      "comment": "",
+      "command": "select",
+      "target": "name=d[15][529]",
+      "targets": [],
+      "value": "label=3"
+    }, {
+      "id": "a7557e5a-75da-4bb6-bc37-011db928a3ae",
+      "comment": "",
+      "command": "type",
+      "target": "name=d[31][72]",
+      "targets": [
+        ["name=d[31][72]", "name"],
+        ["css=.form-group:nth-child(4) .form-control", "css:finder"],
+        ["xpath=//input[@name='d[31][72]']", "xpath:attributes"],
+        ["xpath=//form[@id='j-i-form']/div[3]/div[4]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/input", "xpath:position"]
+      ],
+      "value": "54"
+    }, {
+      "id": "e06f0a1f-77d4-404d-98d3-dd7032c401f2",
+      "comment": "",
+      "command": "type",
+      "target": "name=d[31][73]",
+      "targets": [
+        ["name=d[31][73]", "name"],
+        ["css=.form-group:nth-child(5) > .col-md-3 .form-control", "css:finder"],
+        ["xpath=//input[@name='d[31][73]']", "xpath:attributes"],
+        ["xpath=//form[@id='j-i-form']/div[3]/div[5]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/input", "xpath:position"]
+      ],
+      "value": "20"
+    }, {
+      "id": "f1d38888-7da5-41de-9985-a0f2461fc410",
+      "comment": "",
+      "command": "type",
+      "target": "name=d[31][74]",
+      "targets": [
+        ["name=d[31][74]", "name"],
+        ["css=.j-del:nth-child(6) .form-control", "css:finder"],
+        ["xpath=//input[@name='d[31][74]']", "xpath:attributes"],
+        ["xpath=//form[@id='j-i-form']/div[3]/div[6]/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div/input", "xpath:position"]
+      ],
+      "value": "4"
+    }, {
+      "id": "6bce81bf-4c7a-49f0-b7b7-302a135ed7af",
+      "comment": "",
+      "command": "type",
+      "target": "name=d[31][75]",
+      "targets": [
+        ["name=d[31][75]", "name"],
+        ["css=.form-group:nth-child(7) > .col-md-3 > .form-control", "css:finder"],
+        ["xpath=//input[@name='d[31][75]']", "xpath:attributes"],
+        ["xpath=//form[@id='j-i-form']/div[3]/div[7]/div/input", "xpath:idRelative"],
+        ["xpath=//div[7]/div/input", "xpath:position"]
+      ],
+      "value": "12"
+    }, {
+      "id": "d9bf9ecd-a394-453b-a81e-bdcdfdcf02b0",
+      "comment": "",
+      "command": "select",
+      "target": "name=d[31][76]",
+      "targets": [],
+      "value": "label=Кирпичный"
+    }, {
+      "id": "064f1d69-fea1-4060-b308-792106c7768a",
+      "comment": "",
+      "command": "select",
+      "target": "name=d[31][77]",
+      "targets": [],
+      "value": "label=Отличное"
+    }]
+  }, {
+    "id": "b8a0cb14-8d2d-426e-8a6d-a587d9d749d8",
+    "name": "test1 (1)",
+    "commands": [{
+      "id": "452fc931-77df-4f27-8566-89d79ee5e3f9",
+      "comment": "",
+      "command": "open",
+      "target": "/item/add",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7cfb6177-e079-4d30-a1de-88ded6dc4f05",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return \"Автоматический тест № \" + Math.floor(Math.random() * (1 + 2000))",
+      "targets": [],
+      "value": "testNumber"
+    }, {
+      "id": "24b3f37f-8081-4829-ab14-53fa8f17f2e6",
+      "comment": "",
+      "command": "type",
+      "target": "id=j-i-title",
+      "targets": [
+        ["id=j-i-title", "id"],
+        ["name=title", "name"],
+        ["css=#j-i-title", "css:finder"],
+        ["xpath=//input[@id='j-i-title']", "xpath:attributes"],
+        ["xpath=//form[@id='j-i-form']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/form/div/div/input", "xpath:position"]
+      ],
+      "value": "${testNumber}"
+    }, {
+      "id": "ee1dfd97-50e2-427a-bdad-6aab899a407c",
+      "comment": "",
+      "command": "type",
+      "target": "id=j-i-descr",
+      "targets": [
+        ["id=j-i-descr", "id"],
+        ["name=descr", "name"],
+        ["css=#j-i-descr", "css:finder"],
+        ["xpath=//textarea[@id='j-i-descr']", "xpath:attributes"],
+        ["xpath=//form[@id='j-i-form']/div[4]/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Далеко в космосе расположена уединенная галактика. Она очень слабо светится, однако мало изменилась на протяжении миллиардов лет – и астрономы точно не знают, как эта галактика оказалась на своем месте и как происходило ее формирование.\\n\\nГалактика DGSAT I, открытая в 2016 г., относится к классу сверхдиффузных галактик, то есть галактик имеющих относительно большие размеры при низкой светимости. Но эта необычная галактика нарушает многие правила, выведенные для сверхдиффузных галактик.\\n\\nБольшинство других сверхдиффузных галактик (концепция, относительно новая для астрономов) расположены внутри густонаселенных, бурлящих скоплений галактик. Астрономы считают, что в результате мощных столкновений, происходящих в этих скоплениях, в космос выбрасываются, словно конфетти из хлопушки, сверхдиффузные галактики."
+    }, {
+      "id": "baa8ac33-a93b-4854-b032-adea5afb4f00",
+      "comment": "",
+      "command": "type",
+      "target": "id=j-i-name",
+      "targets": [
+        ["id=j-i-name", "id"],
+        ["name=name", "name"],
+        ["css=#j-i-name", "css:finder"],
+        ["xpath=//input[@id='j-i-name']", "xpath:attributes"],
+        ["xpath=//div[@id='j-i-name-block']/div/input", "xpath:idRelative"],
+        ["xpath=//div[11]/div/input", "xpath:position"]
+      ],
+      "value": "Имя Фамилия"
+    }, {
+      "id": "1351bd36-8d71-47e4-8d69-636ce38b366e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.j-geo-city-select-ac",
+      "targets": [
+        ["id=j-geo-city-select-ac36", "id"],
+        ["css=#j-geo-city-select-ac36", "css:finder"],
+        ["xpath=//input[@id='j-geo-city-select-ac36']", "xpath:attributes"],
+        ["xpath=//form[@id='j-i-form']/div[9]/div/div/div/input[3]", "xpath:idRelative"],
+        ["xpath=//div[9]/div/div/div/input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f7e99a5b-68f0-4d66-82c1-589c3d281630",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "css=.autocomplete > li:nth-child(1)",
+      "targets": [
+        ["css=.autocomplete > li:nth-child(1)", "css:finder"],
+        ["xpath=//form[@id='j-i-form']/div[9]/div/div/div/ul/li", "xpath:idRelative"],
+        ["xpath=//div[9]/div/div/div/ul/li", "xpath:position"],
+        ["xpath=//li[contains(.,'Чита')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "59c09191-251c-46d0-8510-9e55788be76c",
+      "comment": "",
+      "command": "type",
+      "target": "id=item-video",
+      "targets": [
+        ["id=item-video", "id"],
+        ["name=video", "name"],
+        ["css=#item-video", "css:finder"],
+        ["xpath=//input[@id='item-video']", "xpath:attributes"],
+        ["xpath=//form[@id='j-i-form']/div[6]/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div/input", "xpath:position"]
+      ],
+      "value": "https://www.youtube.com/watch?v=yaX4iGw-b_Y"
+    }, {
+      "id": "579757de-44bb-46c6-ba3e-cedb093c5c94",
+      "comment": "",
+      "command": "type",
+      "target": "name=contacts[skype]",
+      "targets": [
+        ["name=contacts[skype]", "name"],
+        ["css=.j-c-skype", "css:finder"],
+        ["xpath=//input[@name='contacts[skype]']", "xpath:attributes"],
+        ["xpath=//form[@id='j-i-form']/div[15]/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "Мой скайп"
+    }, {
+      "id": "7710b4bc-629f-4a18-ae86-2db198715f1b",
+      "comment": "",
+      "command": "type",
+      "target": "name=contacts[whatsapp]",
+      "targets": [
+        ["name=contacts[whatsapp]", "name"],
+        ["css=.j-c-whatsapp", "css:finder"],
+        ["xpath=//input[@name='contacts[whatsapp]']", "xpath:attributes"],
+        ["xpath=//form[@id='j-i-form']/div[15]/div/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "Мой Вотсапп"
+    }, {
+      "id": "611fef89-dcaf-46fe-88c3-f6e335510b30",
+      "comment": "",
+      "command": "type",
+      "target": "name=contacts[viber]",
+      "targets": [
+        ["name=contacts[viber]", "name"],
+        ["css=.j-c-viber", "css:finder"],
+        ["xpath=//input[@name='contacts[viber]']", "xpath:attributes"],
+        ["xpath=//form[@id='j-i-form']/div[15]/div/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": "Мой Вайбер"
+    }, {
+      "id": "490a6e4d-fe50-45b8-a74c-7f74000a5dc1",
+      "comment": "",
+      "command": "type",
+      "target": "name=contacts[telegram]",
+      "targets": [
+        ["name=contacts[telegram]", "name"],
+        ["css=.j-c-telegram", "css:finder"],
+        ["xpath=//input[@name='contacts[telegram]']", "xpath:attributes"],
+        ["xpath=//form[@id='j-i-form']/div[15]/div/div[5]/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/input", "xpath:position"]
+      ],
+      "value": "Телеграмм"
+    }, {
+      "id": "8c7adebb-9ed0-421b-8f6a-4caee5cf90c1",
+      "comment": "",
+      "command": "type",
+      "target": "name=contacts[example]",
+      "targets": [
+        ["name=contacts[example]", "name"],
+        ["css=.j-c-example", "css:finder"],
+        ["xpath=//input[@name='contacts[example]']", "xpath:attributes"],
+        ["xpath=//form[@id='j-i-form']/div[15]/div/div[6]/div/input", "xpath:idRelative"],
+        ["xpath=//div/div[6]/div/input", "xpath:position"]
+      ],
+      "value": "Другой контакт"
+    }, {
+      "id": "f0c01096-1777-44d1-9e91-e6ce8ecf1dcc",
+      "comment": "",
+      "command": "click",
+      "target": "name=agree",
+      "targets": [
+        ["name=agree", "name"],
+        ["css=label > .j-required", "css:finder"],
+        ["xpath=//input[@name='agree']", "xpath:attributes"],
+        ["xpath=//form[@id='j-i-form']/div[16]/div/div/label/input", "xpath:idRelative"],
+        ["xpath=//div/label/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "c63ec272-cd52-4525-b311-9d319b9c2b8c",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": true,
+    "timeout": 300,
+    "tests": ["64c23a3f-65f9-4d32-baaf-f2660cc27400", "47b08368-d656-4dd4-af97-e4133a7bb8d8"]
+  }],
+  "urls": ["https://doska.plus/", "https://doska.plus/item/add"],
+  "plugins": []
+}

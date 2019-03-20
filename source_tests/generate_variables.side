@@ -1,0 +1,67 @@
+{
+  "id": "575c75fe-9ff5-4d0e-b85e-8b069c808d3e",
+  "version": "2.0",
+  "name": "generate_variables",
+  "url": "https://doska.plus/user/login",
+  "tests": [{
+    "id": "64c23a3f-65f9-4d32-baaf-f2660cc27400",
+    "name": "general",
+    "commands": [{
+      "id": "0a7cc02a-0907-4a5d-bb27-87ce88a4c615",
+      "comment": "",
+      "command": "//open",
+      "target": "https://doska.plus/item/add",
+      "targets": [
+        ["css=.l-header-user-buttons > .btn:nth-child(2)", "css:finder"],
+        ["xpath=(//a[contains(@href, 'https://doska.plus/cabinet/favs')])[2]", "xpath:href"],
+        ["xpath=//li[3]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "330d4392-0977-43b0-8a45-130247d19e16",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return  Math.floor(Math.random() * (1 + 2000000))",
+      "targets": [],
+      "value": "randPrice"
+    }, {
+      "id": "bda5bd25-9d4d-430d-b120-1f36f5c45ec9",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return  Math.floor(Math.random() * (1 + 200000))",
+      "targets": [],
+      "value": "randNumber"
+    }, {
+      "id": "c07a3538-bd40-4f2e-93f5-453512ccb08b",
+      "comment": "",
+      "command": "store",
+      "target": "Автоматический тест № ${randNumber}",
+      "targets": [],
+      "value": "title"
+    }, {
+      "id": "9e2c871b-b296-4835-b9b8-f372abf92e92",
+      "comment": "",
+      "command": "store",
+      "target": "Далеко в космосе расположена уединенная галактика. ${randNumber}. Она очень слабо светится, однако мало изменилась на протяжении миллиардов лет – и астрономы точно не знают, как эта галактика оказалась на своем месте и как происходило ее формирование.",
+      "targets": [
+        ["id=j-i-descr", "id"],
+        ["name=descr", "name"],
+        ["css=#j-i-descr", "css:finder"],
+        ["xpath=//textarea[@id='j-i-descr']", "xpath:attributes"],
+        ["xpath=//form[@id='j-i-form']/div[4]/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "desc"
+    }]
+  }],
+  "suites": [{
+    "id": "c63ec272-cd52-4525-b311-9d319b9c2b8c",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": true,
+    "timeout": 300,
+    "tests": ["64c23a3f-65f9-4d32-baaf-f2660cc27400"]
+  }],
+  "urls": ["https://doska.plus/", "https://doska.plus/item/add", "https://doska.plus/user/logout/", "https://doska.plus/user/login"],
+  "plugins": []
+}

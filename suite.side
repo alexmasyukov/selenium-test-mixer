@@ -1,0 +1,2274 @@
+{
+  "id": "9ec828c1-5338-4db5-8453-19ee8024a25a",
+  "version": "2.0",
+  "name": "categories",
+  "url": "https://doska.plus",
+  "tests": [
+    {
+      "id": "3cb90bce-e1dd-44f6-918c-b9c5e13135fe",
+      "name": "1__komnaty_posutochno",
+      "commands": [
+        {
+          "id": "f40c541a-01da-4e9d-b342-885af0311db4",
+          "comment": "",
+          "command": "open",
+          "target": "https://doska.plus/user/login",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "eb9db3b9-8f10-482e-b939-5caa04f609ab",
+          "comment": "",
+          "command": "type",
+          "target": "id=j-u-login-email",
+          "targets": [
+            [
+              "id=j-u-login-email",
+              "id"
+            ],
+            [
+              "name=email",
+              "name"
+            ],
+            [
+              "css=#j-u-login-email",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@id='j-u-login-email']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//form[@id='j-u-login-form']/div/div/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div/input",
+              "xpath:position"
+            ]
+          ],
+          "value": "alienspro2008@yandex.ru"
+        },
+        {
+          "id": "114ec573-7a44-4889-b5b0-e186e98b6f2a",
+          "comment": "",
+          "command": "type",
+          "target": "id=j-u-login-pass",
+          "targets": [
+            [
+              "id=j-u-login-pass",
+              "id"
+            ],
+            [
+              "name=pass",
+              "name"
+            ],
+            [
+              "css=#j-u-login-pass",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@id='j-u-login-pass']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//form[@id='j-u-login-form']/div[2]/div/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div[2]/div/input",
+              "xpath:position"
+            ]
+          ],
+          "value": "TRT615c"
+        },
+        {
+          "id": "304d79e1-1b5b-4751-80d2-f691602bf3df",
+          "comment": "",
+          "command": "click",
+          "target": "css=.checkbox > label",
+          "targets": [
+            [
+              "css=.checkbox > label",
+              "css:finder"
+            ],
+            [
+              "xpath=//form[@id='j-u-login-form']/div[3]/div/div/label",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div/div/label",
+              "xpath:position"
+            ],
+            [
+              "xpath=//label[contains(.,'Запомнить меня')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "213c017a-f85d-436d-a05d-77ab34138cc4",
+          "comment": "",
+          "command": "click",
+          "target": "css=.j-submit",
+          "targets": [
+            [
+              "css=.j-submit",
+              "css:finder"
+            ],
+            [
+              "xpath=//button[@type='submit']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//form[@id='j-u-login-form']/div[4]/div/button",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div[4]/div/button",
+              "xpath:position"
+            ],
+            [
+              "xpath=//button[contains(.,'Войти на сайт')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "88f49ce8-0348-4e6e-9bfb-93be0ceae69b",
+          "comment": "",
+          "command": "pause",
+          "target": "1000",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "2267da70-82fa-4b57-909b-b7d0305fdc5c",
+          "comment": "",
+          "command": "//open",
+          "target": "/item/add",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "9c1cc8ee-58cc-4cca-a4de-cba9f3ed9c89",
+          "comment": "",
+          "command": "click",
+          "target": "css=.j-cat-select-link > span",
+          "targets": [
+            [
+              "css=.j-cat-select-link > span",
+              "css:finder"
+            ],
+            [
+              "xpath=//form[@id='j-i-form']/div[2]/div/div/div[2]/a/span",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div[2]/a/span",
+              "xpath:position"
+            ],
+            [
+              "xpath=//span[contains(.,'Выберите категорию')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "259c36bc-e387-4024-90f9-edd87b71d0ad",
+          "comment": "",
+          "command": "click",
+          "target": "css=.dropdown-menu-in li:nth-child(1) img",
+          "targets": [
+            [
+              "css=.dropdown-menu-in li:nth-child(1) img",
+              "css:finder"
+            ],
+            [
+              "xpath=(//img[@alt='Недвижимость'])[2]",
+              "xpath:img"
+            ],
+            [
+              "xpath=//form[@id='j-i-form']/div[2]/div/div/div[3]/div/div/ul/li/a/span/img",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div[3]/div/div/ul/li/a/span/img",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "5cdf33d8-381a-40ff-ada6-300fc12ba6f4",
+          "comment": "",
+          "command": "click",
+          "target": "css=li:nth-child(1) > .j-sub > span",
+          "targets": [
+            [
+              "css=li:nth-child(1) > .j-sub > span",
+              "css:finder"
+            ],
+            [
+              "xpath=//form[@id='j-i-form']/div[2]/div/div/div[3]/div[2]/div/div[2]/div/ul/li/a/span",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div[2]/div/div[2]/div/ul/li/a/span",
+              "xpath:position"
+            ],
+            [
+              "xpath=//span[contains(.,'Аренда недвижимости')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "ca0d43cb-3820-41b4-be76-e059717fc89c",
+          "comment": "",
+          "command": "click",
+          "target": "css=li:nth-child(2) > .j-sub > span",
+          "targets": [
+            [
+              "css=li:nth-child(2) > .j-sub > span",
+              "css:finder"
+            ],
+            [
+              "xpath=//form[@id='j-i-form']/div[2]/div/div/div[3]/div[2]/div/div[2]/div/ul/li[2]/a/span",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div[2]/div/div[2]/div/ul/li[2]/a/span",
+              "xpath:position"
+            ],
+            [
+              "xpath=//span[contains(.,'Аренда комнат')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "35a7a11e-ce65-4bdc-9faa-a18009588a6d",
+          "comment": "",
+          "command": "click",
+          "target": "css=li:nth-child(1) > .j-sub > span",
+          "targets": [
+            [
+              "css=li:nth-child(1) > .j-sub > span",
+              "css:finder"
+            ],
+            [
+              "xpath=//form[@id='j-i-form']/div[2]/div/div/div[3]/div[2]/div/div[2]/div/ul/li/a/span",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div[2]/div/div[2]/div/ul/li/a/span",
+              "xpath:position"
+            ],
+            [
+              "xpath=//span[contains(.,'Комнаты посуточно')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "7d14bc51-ecb6-4ad5-857e-84fd52d8af46",
+          "comment": "Торг возможен",
+          "command": "click",
+          "target": "name=price_ex[2]",
+          "targets": [
+            [
+              "name=price_ex[2]",
+              "name"
+            ],
+            [
+              "css=.j-price-mod",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@name='price_ex[2]']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//form[@id='j-i-form']/div[3]/div[2]/div/div[2]/div/label/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div[2]/div/label/input",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "a28943a2-c715-4177-bef4-298b5311400c",
+          "comment": "",
+          "command": "select",
+          "target": "name=d[9][536]",
+          "targets": [],
+          "value": "label=4"
+        },
+        {
+          "id": "2927bc36-59d6-438a-b07a-8ac55d8a724e",
+          "comment": "",
+          "command": "type",
+          "target": "id=j-i-geo-addr-addr",
+          "targets": [
+            [
+              "id=j-i-geo-addr-addr",
+              "id"
+            ],
+            [
+              "name=addr_addr",
+              "name"
+            ],
+            [
+              "css=#j-i-geo-addr-addr",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@id='j-i-geo-addr-addr']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//div[@id='j-i-geo-addr']/div/div/input[3]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div[4]/div/div/input[3]",
+              "xpath:position"
+            ]
+          ],
+          "value": "Амурская улица, 61"
+        }
+      ]
+    },
+    {
+      "id": "065a7b15-1097-4630-923a-d8d4b6bdad3d",
+      "name": "2__dolgosrochnaya_arenda_komnat",
+      "commands": [
+        {
+          "id": "f40c541a-01da-4e9d-b342-885af0311db4",
+          "comment": "",
+          "command": "open",
+          "target": "https://doska.plus/user/login",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "eb9db3b9-8f10-482e-b939-5caa04f609ab",
+          "comment": "",
+          "command": "type",
+          "target": "id=j-u-login-email",
+          "targets": [
+            [
+              "id=j-u-login-email",
+              "id"
+            ],
+            [
+              "name=email",
+              "name"
+            ],
+            [
+              "css=#j-u-login-email",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@id='j-u-login-email']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//form[@id='j-u-login-form']/div/div/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div/input",
+              "xpath:position"
+            ]
+          ],
+          "value": "alienspro2008@yandex.ru"
+        },
+        {
+          "id": "114ec573-7a44-4889-b5b0-e186e98b6f2a",
+          "comment": "",
+          "command": "type",
+          "target": "id=j-u-login-pass",
+          "targets": [
+            [
+              "id=j-u-login-pass",
+              "id"
+            ],
+            [
+              "name=pass",
+              "name"
+            ],
+            [
+              "css=#j-u-login-pass",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@id='j-u-login-pass']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//form[@id='j-u-login-form']/div[2]/div/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div[2]/div/input",
+              "xpath:position"
+            ]
+          ],
+          "value": "TRT615c"
+        },
+        {
+          "id": "304d79e1-1b5b-4751-80d2-f691602bf3df",
+          "comment": "",
+          "command": "click",
+          "target": "css=.checkbox > label",
+          "targets": [
+            [
+              "css=.checkbox > label",
+              "css:finder"
+            ],
+            [
+              "xpath=//form[@id='j-u-login-form']/div[3]/div/div/label",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div/div/label",
+              "xpath:position"
+            ],
+            [
+              "xpath=//label[contains(.,'Запомнить меня')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "213c017a-f85d-436d-a05d-77ab34138cc4",
+          "comment": "",
+          "command": "click",
+          "target": "css=.j-submit",
+          "targets": [
+            [
+              "css=.j-submit",
+              "css:finder"
+            ],
+            [
+              "xpath=//button[@type='submit']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//form[@id='j-u-login-form']/div[4]/div/button",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div[4]/div/button",
+              "xpath:position"
+            ],
+            [
+              "xpath=//button[contains(.,'Войти на сайт')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "88f49ce8-0348-4e6e-9bfb-93be0ceae69b",
+          "comment": "",
+          "command": "pause",
+          "target": "1000",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "63ce900a-5f39-4697-8a5a-085bfdb40cf6",
+          "comment": "",
+          "command": "//open",
+          "target": "/item/add",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "8e137d93-fc64-47d1-b764-0bacdb7e8067",
+          "comment": "",
+          "command": "click",
+          "target": "css=.j-cat-select-link > span",
+          "targets": [
+            [
+              "css=.j-cat-select-link > span",
+              "css:finder"
+            ],
+            [
+              "xpath=//form[@id='j-i-form']/div[2]/div/div/div[2]/a/span",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div[2]/a/span",
+              "xpath:position"
+            ],
+            [
+              "xpath=//span[contains(.,'Выберите категорию')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "b363854d-413e-4215-800f-8ae1014a9e42",
+          "comment": "",
+          "command": "click",
+          "target": "css=.dropdown-menu-in li:nth-child(1) img",
+          "targets": [
+            [
+              "css=.dropdown-menu-in li:nth-child(1) img",
+              "css:finder"
+            ],
+            [
+              "xpath=(//img[@alt='Недвижимость'])[2]",
+              "xpath:img"
+            ],
+            [
+              "xpath=//form[@id='j-i-form']/div[2]/div/div/div[3]/div/div/ul/li/a/span/img",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div[3]/div/div/ul/li/a/span/img",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "cb1d0b8f-252b-446f-b23c-a3acf99bccff",
+          "comment": "",
+          "command": "click",
+          "target": "css=li:nth-child(1) > .j-sub > span",
+          "targets": [
+            [
+              "css=li:nth-child(1) > .j-sub > span",
+              "css:finder"
+            ],
+            [
+              "xpath=//form[@id='j-i-form']/div[2]/div/div/div[3]/div[2]/div/div[2]/div/ul/li/a/span",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div[2]/div/div[2]/div/ul/li/a/span",
+              "xpath:position"
+            ],
+            [
+              "xpath=//span[contains(.,'Аренда недвижимости')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "504e3dae-31e9-4aa5-8484-b44ce231cb34",
+          "comment": "",
+          "command": "click",
+          "target": "css=li:nth-child(2) > .j-sub > span",
+          "targets": [
+            [
+              "css=li:nth-child(2) > .j-sub > span",
+              "css:finder"
+            ],
+            [
+              "xpath=//form[@id='j-i-form']/div[2]/div/div/div[3]/div[2]/div/div[2]/div/ul/li[2]/a/span",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div[2]/div/div[2]/div/ul/li[2]/a/span",
+              "xpath:position"
+            ],
+            [
+              "xpath=//span[contains(.,'Аренда комнат')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "300b050f-f18f-4623-bf5b-0b7990d1372e",
+          "comment": "",
+          "command": "click",
+          "target": "css=li:nth-child(2) > .j-sub > span",
+          "targets": [
+            [
+              "css=li:nth-child(2) > .j-sub > span",
+              "css:finder"
+            ],
+            [
+              "xpath=//form[@id='j-i-form']/div[2]/div/div/div[3]/div[2]/div/div[2]/div/ul/li[2]/a/span",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div[2]/div/div[2]/div/ul/li[2]/a/span",
+              "xpath:position"
+            ],
+            [
+              "xpath=//span[contains(.,'Долгосрочная аренда комнат')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "2f962790-b906-415c-a369-25d2c9ef7f9f",
+          "comment": "",
+          "command": "select",
+          "target": "name=d[9][536]",
+          "targets": [],
+          "value": "label=2"
+        },
+        {
+          "id": "84ddf757-6af5-43d0-92d6-7c4905dd22a6",
+          "comment": "Торг возможен",
+          "command": "click",
+          "target": "css=.checkbox:nth-child(3) > label",
+          "targets": [
+            [
+              "css=.checkbox:nth-child(3) > label",
+              "css:finder"
+            ],
+            [
+              "xpath=//form[@id='j-i-form']/div[3]/div[2]/div/div[2]/div/label",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div[2]/div/label",
+              "xpath:position"
+            ],
+            [
+              "xpath=//label[contains(.,'Торг возможен')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "e708356a-20b2-4193-b36a-c9a16b14b3ca",
+          "comment": "",
+          "command": "type",
+          "target": "id=j-i-geo-addr-addr",
+          "targets": [
+            [
+              "id=j-i-geo-addr-addr",
+              "id"
+            ],
+            [
+              "name=addr_addr",
+              "name"
+            ],
+            [
+              "css=#j-i-geo-addr-addr",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@id='j-i-geo-addr-addr']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//div[@id='j-i-geo-addr']/div/div/input[3]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div[4]/div/div/input[3]",
+              "xpath:position"
+            ]
+          ],
+          "value": "Амурская улица, 61"
+        }
+      ]
+    },
+    {
+      "id": "55f6006d-1c65-4f55-a5c9-65cb431bc556",
+      "name": "4__dolgosrochnaya_arenda_domov",
+      "commands": [
+        {
+          "id": "f40c541a-01da-4e9d-b342-885af0311db4",
+          "comment": "",
+          "command": "open",
+          "target": "https://doska.plus/user/login",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "eb9db3b9-8f10-482e-b939-5caa04f609ab",
+          "comment": "",
+          "command": "type",
+          "target": "id=j-u-login-email",
+          "targets": [
+            [
+              "id=j-u-login-email",
+              "id"
+            ],
+            [
+              "name=email",
+              "name"
+            ],
+            [
+              "css=#j-u-login-email",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@id='j-u-login-email']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//form[@id='j-u-login-form']/div/div/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div/input",
+              "xpath:position"
+            ]
+          ],
+          "value": "alienspro2008@yandex.ru"
+        },
+        {
+          "id": "114ec573-7a44-4889-b5b0-e186e98b6f2a",
+          "comment": "",
+          "command": "type",
+          "target": "id=j-u-login-pass",
+          "targets": [
+            [
+              "id=j-u-login-pass",
+              "id"
+            ],
+            [
+              "name=pass",
+              "name"
+            ],
+            [
+              "css=#j-u-login-pass",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@id='j-u-login-pass']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//form[@id='j-u-login-form']/div[2]/div/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div[2]/div/input",
+              "xpath:position"
+            ]
+          ],
+          "value": "TRT615c"
+        },
+        {
+          "id": "304d79e1-1b5b-4751-80d2-f691602bf3df",
+          "comment": "",
+          "command": "click",
+          "target": "css=.checkbox > label",
+          "targets": [
+            [
+              "css=.checkbox > label",
+              "css:finder"
+            ],
+            [
+              "xpath=//form[@id='j-u-login-form']/div[3]/div/div/label",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div/div/label",
+              "xpath:position"
+            ],
+            [
+              "xpath=//label[contains(.,'Запомнить меня')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "213c017a-f85d-436d-a05d-77ab34138cc4",
+          "comment": "",
+          "command": "click",
+          "target": "css=.j-submit",
+          "targets": [
+            [
+              "css=.j-submit",
+              "css:finder"
+            ],
+            [
+              "xpath=//button[@type='submit']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//form[@id='j-u-login-form']/div[4]/div/button",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div[4]/div/button",
+              "xpath:position"
+            ],
+            [
+              "xpath=//button[contains(.,'Войти на сайт')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "88f49ce8-0348-4e6e-9bfb-93be0ceae69b",
+          "comment": "",
+          "command": "pause",
+          "target": "1000",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "adb292ec-c971-48c1-8865-0809318d1908",
+          "comment": "",
+          "command": "//open",
+          "target": "/item/add",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "fee33340-ca95-4fda-8d2d-5d5ead362ad6",
+          "comment": "",
+          "command": "click",
+          "target": "css=.j-cat-select-link > span",
+          "targets": [
+            [
+              "css=.j-cat-select-link > span",
+              "css:finder"
+            ],
+            [
+              "xpath=//form[@id='j-i-form']/div[2]/div/div/div[2]/a/span",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div[2]/a/span",
+              "xpath:position"
+            ],
+            [
+              "xpath=//span[contains(.,'Выберите категорию')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "40a967d4-b1dc-4c75-b11e-6b32dc4b1723",
+          "comment": "",
+          "command": "click",
+          "target": "css=.dropdown-menu-in li:nth-child(1) img",
+          "targets": [
+            [
+              "css=.dropdown-menu-in li:nth-child(1) img",
+              "css:finder"
+            ],
+            [
+              "xpath=(//img[@alt='Недвижимость'])[2]",
+              "xpath:img"
+            ],
+            [
+              "xpath=//form[@id='j-i-form']/div[2]/div/div/div[3]/div/div/ul/li/a/span/img",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div[3]/div/div/ul/li/a/span/img",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "f52d4d8f-adac-42c3-b234-bc4235f19846",
+          "comment": "",
+          "command": "click",
+          "target": "css=li:nth-child(1) > .j-sub > span",
+          "targets": [
+            [
+              "css=li:nth-child(1) > .j-sub > span",
+              "css:finder"
+            ],
+            [
+              "xpath=//form[@id='j-i-form']/div[2]/div/div/div[3]/div[2]/div/div[2]/div/ul/li/a/span",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div[2]/div/div[2]/div/ul/li/a/span",
+              "xpath:position"
+            ],
+            [
+              "xpath=//span[contains(.,'Аренда недвижимости')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "7c225d06-9b45-408c-9f32-8a036e328d86",
+          "comment": "",
+          "command": "click",
+          "target": "linkText=Аренда домов »",
+          "targets": [
+            [
+              "linkText=Аренда домов »",
+              "linkText"
+            ],
+            [
+              "css=li:nth-child(3) > .j-sub",
+              "css:finder"
+            ],
+            [
+              "xpath=//form[@id='j-i-form']/div[2]/div/div/div[3]/div[2]/div/div[2]/div/ul/li[3]/a",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=(//a[contains(@href, '#')])[25]",
+              "xpath:href"
+            ],
+            [
+              "xpath=//div[2]/div/div[2]/div/ul/li[3]/a",
+              "xpath:position"
+            ],
+            [
+              "xpath=//a[contains(.,'Аренда домов »')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "48aff2b3-6b20-446f-9ac3-b863ae1ecc6c",
+          "comment": "",
+          "command": "click",
+          "target": "css=li:nth-child(1) > .j-sub > span",
+          "targets": [
+            [
+              "css=li:nth-child(1) > .j-sub > span",
+              "css:finder"
+            ],
+            [
+              "xpath=//form[@id='j-i-form']/div[2]/div/div/div[3]/div[2]/div/div[2]/div/ul/li/a/span",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div[2]/div/div[2]/div/ul/li/a/span",
+              "xpath:position"
+            ],
+            [
+              "xpath=//span[contains(.,'Долгосрочная аренда домов')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "da0f179e-9b7c-4b64-9b8d-51687c912047",
+          "comment": "",
+          "command": "click",
+          "target": "css=.checkbox > label",
+          "targets": [
+            [
+              "css=.checkbox > label",
+              "css:finder"
+            ],
+            [
+              "xpath=//form[@id='j-i-form']/div[3]/div[2]/div/div[2]/div/label",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div[2]/div/label",
+              "xpath:position"
+            ],
+            [
+              "xpath=//label[contains(.,'Торг возможен')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "b92cdb49-79b3-4808-8967-80e9d3134808",
+          "comment": "",
+          "command": "click",
+          "target": "name=cat_type",
+          "targets": [
+            [
+              "name=cat_type",
+              "name"
+            ],
+            [
+              "css=.radio-inline:nth-child(1) .j-cat-type",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@name='cat_type']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//form[@id='j-i-form']/div[3]/div/div/div/label/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//label/input",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "7705173b-a5c1-4864-a078-e741868a1f46",
+          "comment": "",
+          "command": "select",
+          "target": "name=d[206][531]",
+          "targets": [],
+          "value": "label=3"
+        },
+        {
+          "id": "6e7bef22-14e9-4a44-a8ad-4e48668d9968",
+          "comment": "",
+          "command": "type",
+          "target": "name=d[206][85]",
+          "targets": [
+            [
+              "name=d[206][85]",
+              "name"
+            ],
+            [
+              "css=.form-group:nth-child(4) .form-control",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@name='d[206][85]']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//form[@id='j-i-form']/div[3]/div[4]/div/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div[4]/div/input",
+              "xpath:position"
+            ]
+          ],
+          "value": "Читинское шоссе"
+        },
+        {
+          "id": "36e125ef-3ecb-49c2-a049-b174c3721a6f",
+          "comment": "",
+          "command": "type",
+          "target": "name=d[206][86]",
+          "targets": [
+            [
+              "name=d[206][86]",
+              "name"
+            ],
+            [
+              "css=.form-group:nth-child(5) > .col-md-3 .form-control",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@name='d[206][86]']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//form[@id='j-i-form']/div[3]/div[5]/div/div/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div[5]/div/div/input",
+              "xpath:position"
+            ]
+          ],
+          "value": "2"
+        },
+        {
+          "id": "ea5e9bdd-b0dc-46e8-a982-9991f6a974c5",
+          "comment": "",
+          "command": "type",
+          "target": "name=d[206][87]",
+          "targets": [
+            [
+              "name=d[206][87]",
+              "name"
+            ],
+            [
+              "css=.form-group:nth-child(6) .input-group > .form-control",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@name='d[206][87]']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//form[@id='j-i-form']/div[3]/div[6]/div/div/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div[6]/div/div/input",
+              "xpath:position"
+            ]
+          ],
+          "value": "40"
+        },
+        {
+          "id": "b3f5f7bf-ea15-4bda-a7e6-7c781b31e23b",
+          "comment": "",
+          "command": "type",
+          "target": "id=j-i-geo-addr-addr",
+          "targets": [
+            [
+              "id=j-i-geo-addr-addr",
+              "id"
+            ],
+            [
+              "name=addr_addr",
+              "name"
+            ],
+            [
+              "css=#j-i-geo-addr-addr",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@id='j-i-geo-addr-addr']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//div[@id='j-i-geo-addr']/div/div/input[3]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div[4]/div/div/input[3]",
+              "xpath:position"
+            ]
+          ],
+          "value": "Амурская улица, 60"
+        }
+      ]
+    },
+    {
+      "id": "4b145ea5-ea10-412b-b923-4adb7ce31519",
+      "name": "3__doma_posutochno_pochasovo",
+      "commands": [
+        {
+          "id": "f40c541a-01da-4e9d-b342-885af0311db4",
+          "comment": "",
+          "command": "open",
+          "target": "https://doska.plus/user/login",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "eb9db3b9-8f10-482e-b939-5caa04f609ab",
+          "comment": "",
+          "command": "type",
+          "target": "id=j-u-login-email",
+          "targets": [
+            [
+              "id=j-u-login-email",
+              "id"
+            ],
+            [
+              "name=email",
+              "name"
+            ],
+            [
+              "css=#j-u-login-email",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@id='j-u-login-email']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//form[@id='j-u-login-form']/div/div/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div/input",
+              "xpath:position"
+            ]
+          ],
+          "value": "alienspro2008@yandex.ru"
+        },
+        {
+          "id": "114ec573-7a44-4889-b5b0-e186e98b6f2a",
+          "comment": "",
+          "command": "type",
+          "target": "id=j-u-login-pass",
+          "targets": [
+            [
+              "id=j-u-login-pass",
+              "id"
+            ],
+            [
+              "name=pass",
+              "name"
+            ],
+            [
+              "css=#j-u-login-pass",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@id='j-u-login-pass']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//form[@id='j-u-login-form']/div[2]/div/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div[2]/div/input",
+              "xpath:position"
+            ]
+          ],
+          "value": "TRT615c"
+        },
+        {
+          "id": "304d79e1-1b5b-4751-80d2-f691602bf3df",
+          "comment": "",
+          "command": "click",
+          "target": "css=.checkbox > label",
+          "targets": [
+            [
+              "css=.checkbox > label",
+              "css:finder"
+            ],
+            [
+              "xpath=//form[@id='j-u-login-form']/div[3]/div/div/label",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div/div/label",
+              "xpath:position"
+            ],
+            [
+              "xpath=//label[contains(.,'Запомнить меня')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "213c017a-f85d-436d-a05d-77ab34138cc4",
+          "comment": "",
+          "command": "click",
+          "target": "css=.j-submit",
+          "targets": [
+            [
+              "css=.j-submit",
+              "css:finder"
+            ],
+            [
+              "xpath=//button[@type='submit']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//form[@id='j-u-login-form']/div[4]/div/button",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div[4]/div/button",
+              "xpath:position"
+            ],
+            [
+              "xpath=//button[contains(.,'Войти на сайт')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "88f49ce8-0348-4e6e-9bfb-93be0ceae69b",
+          "comment": "",
+          "command": "pause",
+          "target": "1000",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "f3284082-9f34-48c2-b35e-eb4514d62db0",
+          "comment": "",
+          "command": "//open",
+          "target": "/item/add",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "595d1a65-06b9-4917-8ee6-77399a144c76",
+          "comment": "",
+          "command": "click",
+          "target": "css=.j-cat-select-link > span",
+          "targets": [
+            [
+              "css=.j-cat-select-link > span",
+              "css:finder"
+            ],
+            [
+              "xpath=//form[@id='j-i-form']/div[2]/div/div/div[2]/a/span",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div[2]/a/span",
+              "xpath:position"
+            ],
+            [
+              "xpath=//span[contains(.,'Выберите категорию')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "030718ce-e678-424a-9397-73f6c78d3f8c",
+          "comment": "",
+          "command": "click",
+          "target": "css=.dropdown-menu-in li:nth-child(1) img",
+          "targets": [
+            [
+              "css=.dropdown-menu-in li:nth-child(1) img",
+              "css:finder"
+            ],
+            [
+              "xpath=(//img[@alt='Недвижимость'])[2]",
+              "xpath:img"
+            ],
+            [
+              "xpath=//form[@id='j-i-form']/div[2]/div/div/div[3]/div/div/ul/li/a/span/img",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div[3]/div/div/ul/li/a/span/img",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "c9edb11e-2b6e-42a3-b587-a34849a26147",
+          "comment": "",
+          "command": "click",
+          "target": "css=li:nth-child(1) > .j-sub > span",
+          "targets": [
+            [
+              "css=li:nth-child(1) > .j-sub > span",
+              "css:finder"
+            ],
+            [
+              "xpath=//form[@id='j-i-form']/div[2]/div/div/div[3]/div[2]/div/div[2]/div/ul/li/a/span",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div[2]/div/div[2]/div/ul/li/a/span",
+              "xpath:position"
+            ],
+            [
+              "xpath=//span[contains(.,'Аренда недвижимости')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "b5755c3f-816e-423e-9bfa-6f7eb67baa84",
+          "comment": "",
+          "command": "click",
+          "target": "css=li:nth-child(3) > .j-sub > span",
+          "targets": [
+            [
+              "css=li:nth-child(3) > .j-sub > span",
+              "css:finder"
+            ],
+            [
+              "xpath=//form[@id='j-i-form']/div[2]/div/div/div[3]/div[2]/div/div[2]/div/ul/li[3]/a/span",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div[2]/div/div[2]/div/ul/li[3]/a/span",
+              "xpath:position"
+            ],
+            [
+              "xpath=//span[contains(.,'Аренда домов')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "d38e35e0-0677-49d2-bfcd-cb3e3f9c273c",
+          "comment": "",
+          "command": "click",
+          "target": "css=li:nth-child(2) > .j-sub > span",
+          "targets": [
+            [
+              "css=li:nth-child(2) > .j-sub > span",
+              "css:finder"
+            ],
+            [
+              "xpath=//form[@id='j-i-form']/div[2]/div/div/div[3]/div[2]/div/div[2]/div/ul/li[2]/a/span",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div[2]/div/div[2]/div/ul/li[2]/a/span",
+              "xpath:position"
+            ],
+            [
+              "xpath=//span[contains(.,'Дома посуточно, почасово')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "c59e6043-f4e6-490f-ad18-b02f15ffdb89",
+          "comment": "",
+          "command": "click",
+          "target": "name=price_ex[2]",
+          "targets": [
+            [
+              "name=price_ex[2]",
+              "name"
+            ],
+            [
+              "css=.j-price-mod",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@name='price_ex[2]']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//form[@id='j-i-form']/div[3]/div[2]/div/div[2]/div/label/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div[2]/div/label/input",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "f9eea9e3-bd0c-4d6d-a28a-f402dc448aab",
+          "comment": "",
+          "command": "select",
+          "target": "name=d[206][531]",
+          "targets": [],
+          "value": "label=4"
+        },
+        {
+          "id": "25fd7651-e84f-4c89-a7cd-9c7ca33d935c",
+          "comment": "",
+          "command": "type",
+          "target": "name=d[206][85]",
+          "targets": [
+            [
+              "name=d[206][85]",
+              "name"
+            ],
+            [
+              "css=.form-group:nth-child(4) .form-control",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@name='d[206][85]']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//form[@id='j-i-form']/div[3]/div[4]/div/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div[4]/div/input",
+              "xpath:position"
+            ]
+          ],
+          "value": "Читинское шоссе"
+        },
+        {
+          "id": "603bcb5b-090d-4162-ae26-82c140bb3878",
+          "comment": "",
+          "command": "type",
+          "target": "name=d[206][86]",
+          "targets": [
+            [
+              "name=d[206][86]",
+              "name"
+            ],
+            [
+              "css=.form-group:nth-child(5) > .col-md-3 .form-control",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@name='d[206][86]']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//form[@id='j-i-form']/div[3]/div[5]/div/div/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div[5]/div/div/input",
+              "xpath:position"
+            ]
+          ],
+          "value": "40"
+        },
+        {
+          "id": "91887e5a-3d07-4b2a-a976-5b9ebaed5b94",
+          "comment": "",
+          "command": "type",
+          "target": "name=d[206][87]",
+          "targets": [
+            [
+              "name=d[206][87]",
+              "name"
+            ],
+            [
+              "css=.form-group:nth-child(6) .input-group > .form-control",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@name='d[206][87]']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//form[@id='j-i-form']/div[3]/div[6]/div/div/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div[6]/div/div/input",
+              "xpath:position"
+            ]
+          ],
+          "value": "34"
+        },
+        {
+          "id": "050d13a2-6e78-4b09-ad8e-e135b7eca5d0",
+          "comment": "",
+          "command": "type",
+          "target": "id=j-i-geo-addr-addr",
+          "targets": [
+            [
+              "id=j-i-geo-addr-addr",
+              "id"
+            ],
+            [
+              "name=addr_addr",
+              "name"
+            ],
+            [
+              "css=#j-i-geo-addr-addr",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@id='j-i-geo-addr-addr']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//div[@id='j-i-geo-addr']/div/div/input[3]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div[4]/div/div/input[3]",
+              "xpath:position"
+            ]
+          ],
+          "value": "Амурская улица, 61"
+        }
+      ]
+    },
+    {
+      "id": "0a73cfa6-b9a1-43b8-a3ed-8ce7272ccf24",
+      "name": "5__arenda_zemli",
+      "commands": [
+        {
+          "id": "f40c541a-01da-4e9d-b342-885af0311db4",
+          "comment": "",
+          "command": "open",
+          "target": "https://doska.plus/user/login",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "eb9db3b9-8f10-482e-b939-5caa04f609ab",
+          "comment": "",
+          "command": "type",
+          "target": "id=j-u-login-email",
+          "targets": [
+            [
+              "id=j-u-login-email",
+              "id"
+            ],
+            [
+              "name=email",
+              "name"
+            ],
+            [
+              "css=#j-u-login-email",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@id='j-u-login-email']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//form[@id='j-u-login-form']/div/div/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div/input",
+              "xpath:position"
+            ]
+          ],
+          "value": "alienspro2008@yandex.ru"
+        },
+        {
+          "id": "114ec573-7a44-4889-b5b0-e186e98b6f2a",
+          "comment": "",
+          "command": "type",
+          "target": "id=j-u-login-pass",
+          "targets": [
+            [
+              "id=j-u-login-pass",
+              "id"
+            ],
+            [
+              "name=pass",
+              "name"
+            ],
+            [
+              "css=#j-u-login-pass",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@id='j-u-login-pass']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//form[@id='j-u-login-form']/div[2]/div/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div[2]/div/input",
+              "xpath:position"
+            ]
+          ],
+          "value": "TRT615c"
+        },
+        {
+          "id": "304d79e1-1b5b-4751-80d2-f691602bf3df",
+          "comment": "",
+          "command": "click",
+          "target": "css=.checkbox > label",
+          "targets": [
+            [
+              "css=.checkbox > label",
+              "css:finder"
+            ],
+            [
+              "xpath=//form[@id='j-u-login-form']/div[3]/div/div/label",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div/div/label",
+              "xpath:position"
+            ],
+            [
+              "xpath=//label[contains(.,'Запомнить меня')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "213c017a-f85d-436d-a05d-77ab34138cc4",
+          "comment": "",
+          "command": "click",
+          "target": "css=.j-submit",
+          "targets": [
+            [
+              "css=.j-submit",
+              "css:finder"
+            ],
+            [
+              "xpath=//button[@type='submit']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//form[@id='j-u-login-form']/div[4]/div/button",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div[4]/div/button",
+              "xpath:position"
+            ],
+            [
+              "xpath=//button[contains(.,'Войти на сайт')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "88f49ce8-0348-4e6e-9bfb-93be0ceae69b",
+          "comment": "",
+          "command": "pause",
+          "target": "1000",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "134eb234-71ad-4459-a104-16559963bae5",
+          "comment": "",
+          "command": "//open",
+          "target": "/item/add",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "383e399f-79f2-4c39-9a8c-d5a78d396a94",
+          "comment": "",
+          "command": "click",
+          "target": "css=.j-cat-select-link > span",
+          "targets": [
+            [
+              "css=.j-cat-select-link > span",
+              "css:finder"
+            ],
+            [
+              "xpath=//form[@id='j-i-form']/div[2]/div/div/div[2]/a/span",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div[2]/a/span",
+              "xpath:position"
+            ],
+            [
+              "xpath=//span[contains(.,'Выберите категорию')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "0ddd40ff-f31c-4c98-9cac-2994d1996332",
+          "comment": "",
+          "command": "click",
+          "target": "css=.dropdown-menu-in li:nth-child(1) .l-categories-items-i-name",
+          "targets": [
+            [
+              "css=.dropdown-menu-in li:nth-child(1) .l-categories-items-i-name",
+              "css:finder"
+            ],
+            [
+              "xpath=//form[@id='j-i-form']/div[2]/div/div/div[3]/div/div/ul/li/a/span[2]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div[3]/div/div/ul/li/a/span[2]",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "eceb5b28-7d34-4435-9c7a-afbea3accb76",
+          "comment": "",
+          "command": "click",
+          "target": "css=li:nth-child(1) > .j-sub > span",
+          "targets": [
+            [
+              "css=li:nth-child(1) > .j-sub > span",
+              "css:finder"
+            ],
+            [
+              "xpath=//form[@id='j-i-form']/div[2]/div/div/div[3]/div[2]/div/div[2]/div/ul/li/a/span",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div[2]/div/div[2]/div/ul/li/a/span",
+              "xpath:position"
+            ],
+            [
+              "xpath=//span[contains(.,'Аренда недвижимости')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "26a7163d-0115-434e-a593-6206be87f828",
+          "comment": "",
+          "command": "click",
+          "target": "css=li:nth-child(4) > .j-sub > span",
+          "targets": [
+            [
+              "css=li:nth-child(4) > .j-sub > span",
+              "css:finder"
+            ],
+            [
+              "xpath=//form[@id='j-i-form']/div[2]/div/div/div[3]/div[2]/div/div[2]/div/ul/li[4]/a/span",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div[2]/div/div[2]/div/ul/li[4]/a/span",
+              "xpath:position"
+            ],
+            [
+              "xpath=//span[contains(.,'Аренда земли')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "b68426be-d6e6-42c8-a3da-48f86b9d416a",
+          "comment": "",
+          "command": "click",
+          "target": "css=.checkbox > label",
+          "targets": [
+            [
+              "css=.checkbox > label",
+              "css:finder"
+            ],
+            [
+              "xpath=//form[@id='j-i-form']/div[3]/div[2]/div/div[2]/div/label",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div[2]/div/label",
+              "xpath:position"
+            ],
+            [
+              "xpath=//label[contains(.,'Торг возможен')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "3e2f3f20-4e77-4efb-bfc9-3c0e18b28d1b",
+          "comment": "",
+          "command": "type",
+          "target": "name=d[20][88]",
+          "targets": [
+            [
+              "name=d[20][88]",
+              "name"
+            ],
+            [
+              "css=.j-dp-ex-in_seek .form-control",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@name='d[20][88]']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//form[@id='j-i-form']/div[3]/div[3]/div/div/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div[3]/div/div/input",
+              "xpath:position"
+            ]
+          ],
+          "value": "50"
+        },
+        {
+          "id": "8d9ffc31-0b8c-4f77-b294-8bd0f9f6fdb1",
+          "comment": "",
+          "command": "type",
+          "target": "name=d[20][89]",
+          "targets": [
+            [
+              "name=d[20][89]",
+              "name"
+            ],
+            [
+              "css=.form-group:nth-child(4) .form-control",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@name='d[20][89]']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//form[@id='j-i-form']/div[3]/div[4]/div/div/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div[4]/div/div/input",
+              "xpath:position"
+            ]
+          ],
+          "value": "120"
+        },
+        {
+          "id": "f60b2b77-6822-48f0-a434-1b270858ce94",
+          "comment": "",
+          "command": "type",
+          "target": "id=j-i-geo-addr-addr",
+          "targets": [
+            [
+              "id=j-i-geo-addr-addr",
+              "id"
+            ],
+            [
+              "name=addr_addr",
+              "name"
+            ],
+            [
+              "css=#j-i-geo-addr-addr",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@id='j-i-geo-addr-addr']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//div[@id='j-i-geo-addr']/div/div/input[3]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div[4]/div/div/input[3]",
+              "xpath:position"
+            ]
+          ],
+          "value": "Амурская улица, 61"
+        }
+      ]
+    },
+    {
+      "id": "b48322c6-d256-4cc5-8eb5-ee26958bd171",
+      "name": "6__arenda_garazhej_stoyanok",
+      "commands": [
+        {
+          "id": "f40c541a-01da-4e9d-b342-885af0311db4",
+          "comment": "",
+          "command": "open",
+          "target": "https://doska.plus/user/login",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "eb9db3b9-8f10-482e-b939-5caa04f609ab",
+          "comment": "",
+          "command": "type",
+          "target": "id=j-u-login-email",
+          "targets": [
+            [
+              "id=j-u-login-email",
+              "id"
+            ],
+            [
+              "name=email",
+              "name"
+            ],
+            [
+              "css=#j-u-login-email",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@id='j-u-login-email']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//form[@id='j-u-login-form']/div/div/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div/input",
+              "xpath:position"
+            ]
+          ],
+          "value": "alienspro2008@yandex.ru"
+        },
+        {
+          "id": "114ec573-7a44-4889-b5b0-e186e98b6f2a",
+          "comment": "",
+          "command": "type",
+          "target": "id=j-u-login-pass",
+          "targets": [
+            [
+              "id=j-u-login-pass",
+              "id"
+            ],
+            [
+              "name=pass",
+              "name"
+            ],
+            [
+              "css=#j-u-login-pass",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@id='j-u-login-pass']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//form[@id='j-u-login-form']/div[2]/div/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div[2]/div/input",
+              "xpath:position"
+            ]
+          ],
+          "value": "TRT615c"
+        },
+        {
+          "id": "304d79e1-1b5b-4751-80d2-f691602bf3df",
+          "comment": "",
+          "command": "click",
+          "target": "css=.checkbox > label",
+          "targets": [
+            [
+              "css=.checkbox > label",
+              "css:finder"
+            ],
+            [
+              "xpath=//form[@id='j-u-login-form']/div[3]/div/div/label",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div/div/label",
+              "xpath:position"
+            ],
+            [
+              "xpath=//label[contains(.,'Запомнить меня')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "213c017a-f85d-436d-a05d-77ab34138cc4",
+          "comment": "",
+          "command": "click",
+          "target": "css=.j-submit",
+          "targets": [
+            [
+              "css=.j-submit",
+              "css:finder"
+            ],
+            [
+              "xpath=//button[@type='submit']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//form[@id='j-u-login-form']/div[4]/div/button",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div[4]/div/button",
+              "xpath:position"
+            ],
+            [
+              "xpath=//button[contains(.,'Войти на сайт')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "88f49ce8-0348-4e6e-9bfb-93be0ceae69b",
+          "comment": "",
+          "command": "pause",
+          "target": "1000",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "60162949-8c7f-476c-9b10-02eb6ff09ab7",
+          "comment": "",
+          "command": "//open",
+          "target": "/item/add",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "1cb76b32-3f97-488a-9110-01345f883e7b",
+          "comment": "",
+          "command": "click",
+          "target": "css=.dropdown-menu-in li:nth-child(1) img",
+          "targets": [
+            [
+              "css=.dropdown-menu-in li:nth-child(1) img",
+              "css:finder"
+            ],
+            [
+              "xpath=(//img[@alt='Недвижимость'])[2]",
+              "xpath:img"
+            ],
+            [
+              "xpath=//form[@id='j-i-form']/div[2]/div/div/div[3]/div/div/ul/li/a/span/img",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div[3]/div/div/ul/li/a/span/img",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "24905dc3-e592-42ed-9be8-20121d372621",
+          "comment": "",
+          "command": "click",
+          "target": "css=li:nth-child(1) > .j-sub > span",
+          "targets": [
+            [
+              "css=li:nth-child(1) > .j-sub > span",
+              "css:finder"
+            ],
+            [
+              "xpath=//form[@id='j-i-form']/div[2]/div/div/div[3]/div[2]/div/div[2]/div/ul/li/a/span",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div[2]/div/div[2]/div/ul/li/a/span",
+              "xpath:position"
+            ],
+            [
+              "xpath=//span[contains(.,'Аренда недвижимости')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "2aed5d9a-869c-4aa4-b57e-6ec84d705995",
+          "comment": "",
+          "command": "click",
+          "target": "css=li:nth-child(5) > .j-sub > span",
+          "targets": [
+            [
+              "css=li:nth-child(5) > .j-sub > span",
+              "css:finder"
+            ],
+            [
+              "xpath=//form[@id='j-i-form']/div[2]/div/div/div[3]/div[2]/div/div[2]/div/ul/li[5]/a/span",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div[2]/div/div[2]/div/ul/li[5]/a/span",
+              "xpath:position"
+            ],
+            [
+              "xpath=//span[contains(.,'Аренда гаражей / стоянок')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "de41b9ef-8771-4f27-9c32-da62bff49f68",
+          "comment": "",
+          "command": "click",
+          "target": "css=.checkbox:nth-child(3)",
+          "targets": [
+            [
+              "css=.checkbox:nth-child(3)",
+              "css:finder"
+            ],
+            [
+              "xpath=//form[@id='j-i-form']/div[3]/div[2]/div/div[2]/div",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//form/div[3]/div[2]/div/div[2]/div",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "3ce38f2b-1d98-439c-b60c-bc00e511ab14",
+          "comment": "",
+          "command": "click",
+          "target": "css=.checkbox > label",
+          "targets": [
+            [
+              "css=.checkbox > label",
+              "css:finder"
+            ],
+            [
+              "xpath=//form[@id='j-i-form']/div[3]/div[2]/div/div[2]/div/label",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div[2]/div/label",
+              "xpath:position"
+            ],
+            [
+              "xpath=//label[contains(.,'Торг возможен')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "1bccb835-d7ec-46ad-b565-7529c1c565e1",
+          "comment": "",
+          "command": "type",
+          "target": "id=j-i-geo-addr-addr",
+          "targets": [
+            [
+              "id=j-i-geo-addr-addr",
+              "id"
+            ],
+            [
+              "name=addr_addr",
+              "name"
+            ],
+            [
+              "css=#j-i-geo-addr-addr",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@id='j-i-geo-addr-addr']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//div[@id='j-i-geo-addr']/div/div/input[3]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div[4]/div/div/input[3]",
+              "xpath:position"
+            ]
+          ],
+          "value": "Амурская улица, 60"
+        }
+      ]
+    }
+  ],
+  "suites": [
+    {
+      "id": "96876440-b90f-46e8-8376-6a0eecd20c93",
+      "name": "Default Suite",
+      "persistSession": false,
+      "parallel": false,
+      "timeout": 300,
+      "tests": [
+        "3cb90bce-e1dd-44f6-918c-b9c5e13135fe",
+        "065a7b15-1097-4630-923a-d8d4b6bdad3d"
+      ]
+    }
+  ],
+  "urls": [
+    "https://doska.plus/"
+  ],
+  "plugins": []
+}

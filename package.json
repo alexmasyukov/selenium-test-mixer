@@ -1,0 +1,14 @@
+{
+  "name": "selenium_doska_plus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "uuid": "^3.3.2"
+  }
+}

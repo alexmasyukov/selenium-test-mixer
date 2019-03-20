@@ -1,0 +1,88 @@
+{
+  "id": "575c75fe-9ff5-4d0e-b85e-8b069c808d3e",
+  "version": "2.0",
+  "name": "auth",
+  "url": "https://doska.plus/user/login",
+  "tests": [{
+    "id": "64c23a3f-65f9-4d32-baaf-f2660cc27400",
+    "name": "general",
+    "commands": [{
+      "id": "f40c541a-01da-4e9d-b342-885af0311db4",
+      "comment": "",
+      "command": "open",
+      "target": "https://doska.plus/user/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eb9db3b9-8f10-482e-b939-5caa04f609ab",
+      "comment": "",
+      "command": "type",
+      "target": "id=j-u-login-email",
+      "targets": [
+        ["id=j-u-login-email", "id"],
+        ["name=email", "name"],
+        ["css=#j-u-login-email", "css:finder"],
+        ["xpath=//input[@id='j-u-login-email']", "xpath:attributes"],
+        ["xpath=//form[@id='j-u-login-form']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "alienspro2008@yandex.ru"
+    }, {
+      "id": "114ec573-7a44-4889-b5b0-e186e98b6f2a",
+      "comment": "",
+      "command": "type",
+      "target": "id=j-u-login-pass",
+      "targets": [
+        ["id=j-u-login-pass", "id"],
+        ["name=pass", "name"],
+        ["css=#j-u-login-pass", "css:finder"],
+        ["xpath=//input[@id='j-u-login-pass']", "xpath:attributes"],
+        ["xpath=//form[@id='j-u-login-form']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "TRT615c"
+    }, {
+      "id": "304d79e1-1b5b-4751-80d2-f691602bf3df",
+      "comment": "",
+      "command": "click",
+      "target": "css=.checkbox > label",
+      "targets": [
+        ["css=.checkbox > label", "css:finder"],
+        ["xpath=//form[@id='j-u-login-form']/div[3]/div/div/label", "xpath:idRelative"],
+        ["xpath=//div/div/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Запомнить меня')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "213c017a-f85d-436d-a05d-77ab34138cc4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.j-submit",
+      "targets": [
+        ["css=.j-submit", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='j-u-login-form']/div[4]/div/button", "xpath:idRelative"],
+        ["xpath=//div[4]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Войти на сайт')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "88f49ce8-0348-4e6e-9bfb-93be0ceae69b",
+      "comment": "",
+      "command": "pause",
+      "target": "1000",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "c63ec272-cd52-4525-b311-9d319b9c2b8c",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": true,
+    "timeout": 300,
+    "tests": ["64c23a3f-65f9-4d32-baaf-f2660cc27400"]
+  }],
+  "urls": ["https://doska.plus/", "https://doska.plus/item/add", "https://doska.plus/user/logout/"],
+  "plugins": []
+}
